@@ -1,0 +1,32 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 90px;
+    width: auto;
+    background-color: blueviolet
+    ;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    padding: 5px 15px;
+    float: left;
+}
+.nav-links ul{
+    display: flex ;
+    align-items: center;    
+    gap: 40px;
+}
+.nav-links ul li{
+    list-style: none;
+    font-size: 35px;
+}
+.nav-links ul li:hover{
+    border-bottom: 1px solid red;
+}

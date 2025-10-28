@@ -1,0 +1,41 @@
+
+.aboutSection{
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+
+}
+.heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: brown;
+}
+.about-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+
+} 
+footer{
+background-color: black;
+text-align: center;
+padding: 20px 0;
+position: fixed;
+width: auto;
+bottom: 0%;
+height: 50px;
+color: white;
+right: 0%;
+left: 0%;
+justify-content: center;
+}
+
+.about-box{
+    height: 200px ;
+    width: 300px;
+    border: 2px solid red;
+}
